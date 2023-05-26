@@ -25,4 +25,4 @@ app.use("/api/checkout", stripeRoute);
 //app.get("/api/test", ()=> {console.log("tested")});
 
 mongoose.connect(process.env.MONGO_URL).then(() => console.log("DB Connection Is Succesfull")).catch((error) => console.log(error));
-app.listen(process.env.PORT || 5000 , () => console.log("Server Connection Is Successfull"));
+app.listen(process.env.PORT || 5000 , () => console.log("Server Connection Is Successfully"));
